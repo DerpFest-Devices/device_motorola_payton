@@ -20,6 +20,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.fm.use_audio_session=true
 
+# Audio
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.media_vol_steps=25
+
 # NavBar
 PRODUCT_PROPERTY_OVERRIDES += \
     qemu.hw.mainkeys=0
