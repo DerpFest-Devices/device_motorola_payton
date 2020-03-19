@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_payton.mk
+    $(LOCAL_DIR)/superior_payton.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_payton-user \
-    lineage_payton-userdebug \
-    lineage_payton-eng
+    superior_payton-user \
+    superior_payton-userdebug \
+    superior_payton-eng
