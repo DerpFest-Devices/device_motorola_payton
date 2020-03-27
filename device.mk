@@ -17,6 +17,9 @@
 # Vendor blobs
 $(call inherit-product-if-exists, vendor/motorola/payton/payton-vendor.mk)
 
+# MotoCamera2
+$(call inherit-product-if-exists, packages/apps/MotoCamera2/motocamera2.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 

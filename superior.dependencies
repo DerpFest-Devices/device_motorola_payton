@@ -16,5 +16,11 @@
     "repository":  "SuperiorOS-Devices/vendor_motorola_payton",
     "target_path": "vendor/motorola",
     "branch":      "ten"
+  },
+  {
+    "remote":      "github",
+    "repository":  "trpsl/packages_apps_MotoCamera2",
+    "target_path": "packages/apps/MotoCamera2",
+    "branch":      "ten"
   }
 ]
