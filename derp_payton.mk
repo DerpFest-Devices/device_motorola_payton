@@ -86,3 +86,7 @@ TARGET_GAPPS_ARCH := arm64
 
 
 IS_PHONE := true
+
+# DerpFest OFFICIAL
+
+DERP_BUILDTYPE := Official
