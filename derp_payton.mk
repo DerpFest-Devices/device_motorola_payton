@@ -90,3 +90,9 @@ IS_PHONE := true
 # DerpFest OFFICIAL
 
 DERP_BUILDTYPE := Official
+
+
+# Device maintainer
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.derp.maintainer=Mohd Aslam Ansari
