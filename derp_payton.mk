@@ -96,3 +96,8 @@ DERP_BUILDTYPE := Official
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.derp.maintainer=Mohd Aslam Ansari
+
+
+ # Memory optimizations
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.qti.sys.fw.bservice_enable=true
